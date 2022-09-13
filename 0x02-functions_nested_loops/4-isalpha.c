@@ -11,8 +11,14 @@ int _isalpha(int c)
 	int alpha = 0;
 
 	for (i = 'a'; i <= 'z'; i++)
-		alpha = 1;
+	{
+		if (i == c)
+			alpha = 1;
+	}
 	for (j = 'A'; j <= 'Z'; j++)
-		alpha = 1;
+	{
+		if (j == c)
+			alpha = 1;
+	}
 	return (alpha);
 }
