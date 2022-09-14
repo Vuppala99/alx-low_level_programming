@@ -9,13 +9,13 @@ int main(void)
 	unsigned long  int a = 1, b = 2, temp, i;
 
 	printf("%ld, %ld, ", a, b);
-	for (i = 0; i <= 95; i++)
+	for (i = 0; i <= 97; i++)
 	{
 		temp = a + b;
 		a = b;
 		b = temp;
 		printf("%lu", b);
-		if (i == 95)
+		if (i == 97)
 			continue;
 		printf(", ");
 	}
