@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i, j, sum = 0, c, add = 0, d, ad = 0, k, e, w, result;
+	int i, j, sum = 0, c, add = 0, d, w, ad = 0, e, k, result;
 
 	for (i = 1; i < 342; i++)
 	{
@@ -18,7 +18,7 @@ int main(void)
 		d = 5 * j;
 		add += d;
 	}
-	for (k = 1; k <= 69; k++)
+	for (k = 1; k < 69; k++)
 	{
 		e = 15 * k;
 		ad += e;
