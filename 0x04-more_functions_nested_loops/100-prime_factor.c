@@ -6,12 +6,13 @@
  */
 int main(void)
 {
-	unsigned long i, n = 612852475143, k;
+	unsigned long int i;
+	unsigned long int n = 612852475143;
 
-	for (i = 1; i < (n / 2); i++)
+	for (i = 3; i < 12057; i += 2)
 	{
-		if ((n % i) == 0)
-			k = i;
+		while ((n % i == 0) && n != i)
+			n /= n / i;
 	}
-	printf("%lu\n", k);
+	printf("%lu\n", n);
 }
