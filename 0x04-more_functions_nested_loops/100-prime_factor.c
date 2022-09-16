@@ -20,4 +20,6 @@ int main(void)
 		i++;
 	}
 	printf("%lu\n", k);
+
+	return (0);
 }
