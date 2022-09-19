@@ -23,7 +23,8 @@ int _strlen(char *s)
  */
 void rev_string(char *s)
 {
-	int i, len, a, z;
+	int i, len;
+	char a, z;
 
 	len = _strlen(s) - 1;
 	i = 0;
